@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+:root {
+    --blue1: color rgb(156, 211, 234);
+    --blue2: color rgb(62, 145, 207);
+    --blue3: color rgb(3, 72, 148);
+    --gray1: color #DEDEDE;
+    --gray2: color rgb(166, 166, 166);
+    --gray3: color #434343;
+}
+
+html, body {
+    background: black;
+    width: 100%;
+    overflow-x: hidden; /* ocultar barra de rodagem*/
+
+}
+
+header {
+    padding-left: 220px;
+    padding-right: 220px;
+    width: 100%;
+    height: 70px;
+    background: black;
+
+}
+
+.container-nav {
+    max-width: 1000px;
+    min-width: 380px;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo0 {
+    margin: 1rem;
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+nav {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+nav > a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(156, 211, 234);
+    font-size:  12px;
+    font-weight: bold;
+    padding: 0.5em 1.5em;     
+}
+
+nav > a:hover { 
+    background-color:rgb(156, 211, 234);
+    border-radius: 0.4em;
+    color: white;
+    transition: color 0.6s;
+}
+
+.banner {   
+    padding-top: 5px;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+}
+.foto2{
+    width: 13rem;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    border-radius: 50%;
+    border:rgb(166, 166, 166) solid;
+}
+
+
+.redes1 {
+    left: 31%;
+    top: 50%;
+    position: absolute;
+    display: inline-block;
+    justify-content: space-between;
+    background-position: center 3%;
+}
+
+
+.container-info{
+    width: 100%;
+    height: 500px;
+    background: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 120px;
+    text-align: right;
+    color: #434343;
+}
+
+.container-info > div > p{
+    padding-top: 20px;
+    line-height: 1.2;
+}
+
+.container-info > h1{
+    font-size: 35px;
+}
+
+.section-formt{
+    width: 100%;
+    height: 380px;
+    background: silver;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    color:#434343;
+    line-height: 1.2;
+
+}
+
+.section-formt > article > h2{
+    font-size: 35px;
+}
+
+.section-exp{
+    width: 100%;
+    height: 700px;
+    background:#434343;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    color:rgb(166, 166, 166);
+    line-height: 1.2;
+}
+
+.section-exp > article > h2{
+    font-size: 35px;
+}
+
+.container-traba{
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background: rgb(166, 166, 166);
+    color: #434343;
+    line-height: 1.2;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+section > h2{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    background: rgb(166, 166, 166);
+    color:#434343;
+    font-size: 35px;
+   
+}
+
+.container-traba > .card {
+   
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    width: calc(270rem / 16);
+    max-width: calc(310rem / 16);
+    padding-top: 20px;
+}
+
+.card-img{
+    height:130px;
+    width: 232px;
+    object-fit: cover;
+}
+
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: start;
+    padding-top: 20px;
+}
+
+.card-text{
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+section > section > article > a > button{
+    margin: 1px;
+    background:#434343;
+    border: none;
+    font-weight: bolder;
+    border-radius: 0.4em;
+    color: rgb(166, 166, 166);
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+}
+.container-contato {
+    background: black;
+    color:rgb(166, 166, 166);
+    line-height: 1.2;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    
+}
+
+.container-contato > article > h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    
+}
+
+.container-contato > article > button {
+    margin: 1px;
+    background:#434343;
+    border: none;
+    font-weight: bolder;
+    border-radius: 0.4em;
+    color: rgb(166, 166, 166);
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+}
+
+.container-contato > div > img{
+    justify-content: right;
+
+}
+
+footer {
+    background:black;
+    color: rgb(166, 166, 166);
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
