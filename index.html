@@ -13,26 +13,24 @@
 <body>
 
     <header>
-
+        <div>
+            <a href="#" class="active"><img src="img/logo0.png" class="logo0" alt="Logo"></a>
+        </div>
         <div class="container-nav">
-
-            <div>
-                <a href="#" class="active"><img src="img/logo0.png" class="logo0" alt="Logo"></a>
-            </div>
-
             <nav>
                 <a href="#quemsou" class="active">Quem sou</a>
                 <a href="#formacao">Minha formação</a>
                 <a href="#experie">Minhas experiênçias</a>
                 <a href="#traba">Meus trabalhos</a>
                 <a href="#contata">Me contata</a>
+                <span class="mobile-btn" role="button">&#9776;</span>
             </nav>
 
         </div>
 
     </header>
     <main>
-        <section class="container-quemsou">
+        <section>
             <div>
                 <div>
                     <img src="img/logo0000.png" class="banner" alt="Banner">
@@ -157,7 +155,7 @@
                         da Industria Petrolera. <br>
                         Controle do Inventario (estoque) de Ativos e ferramentas
                         de computação. <br>
-                        Controle de Câmbio e Configuração da Plataforma AIT. <br>
+                        Gerenciamento de Mudanças e Configuração da Plataforma AIT. <br>
                         Contratação e Compra. <br>
                         Planejamento e Controle de Projetos. <br>
                         Assistência e substituição de Pessoal Líder na área de Coordenação de Ativos. <br>
@@ -179,8 +177,8 @@
                         Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante. Sed vel
                         tellus.
                     </p>
-                    <a href="#" target="_blank"><button>REPOSITÓRIO</button></a>
-                    <a href="https://www.instagram.com/aludalotus/" target="_blank"><button>VER DEMO</button></a>
+                    <a href="https://www.behance.net/luisaquinones" target="_blank"><button>REPOSITÓRIO</button></a>
+                    <a href="https://www.behance.net/luisaquinones" target="_blank"><button>VER DEMO</button></a>
                 </article>
 
 
@@ -191,7 +189,8 @@
                         Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante. Sed vel
                         tellus.
                     </p>
-                    <a href="#" target="_blank"><button>REPOSITÓRIO</button></a>
+                    <a href="https://issuu.com/saojoaods/docs/sao-joao-ds-catalogo-encomendas-janeiro-2021"
+                        target="_blank"><button>REPOSITÓRIO</button></a>
                     <a href="https://issuu.com/saojoaods/docs/sao-joao-ds-catalogo-encomendas-janeiro-2021"
                         target="_blank"><button>VER DEMO</button></a>
                 </article>
@@ -203,19 +202,21 @@
                         Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante. Sed vel
                         tellus.
                     </p>
-                    <a href="#"><button>REPOSITÓRIO</button></a>
-                    <a href="https://github.com/AFREELUISAQT" target="_blank"><button>VER DEMO</button></a>
+                    <a href="https://github.com/AFREELUISAQT/CursoTotiT8_HTML"
+                        target="_blank"><button>REPOSITÓRIO</button></a>
+                    <a href="https://github.com/AFREELUISAQT/CursoTotiT8_HTML" target="_blank"><button>VER
+                            DEMO</button></a>
                 </article>
 
-                <article class="card-lg">
+                <article class="card">
                     <img src="img/desenvolvimentoweb.png" class="card-img" alt="Desenvolvimento Web">
                     <h2 class="card-title">Desenvolvimento Web</h2>
                     <p class="card-text">
                         Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante. Sed vel
                         tellus.
                     </p>
-                    <a href="#"><button>REPOSITÓRIO</button></a>
-                    <a href="https://github.com/AFREELUISAQT" target="_blank"><button>VER DEMO</button></a>
+                    <a href="https://github.com/AFREELUISAQT" target="_blank"><button>REPOSITÓRIO</button></a>
+                    <a href="https://afreeluisaqt.github.io/Projeto_CSS/" target="_blank"><button>VER DEMO</button></a>
                 </article>
             </section>
         </section>
@@ -228,6 +229,44 @@
                     Preencha o formulário ao lado e entrarei em contato o mais rápido possível. <br>
                     Você também pode me encontrar nas seguintes redes sociais:</p>
 
+
+
+            </article>
+
+            <article class="formulario">
+                <form action="contato" method="POST">
+                    <p>
+                        <label>
+                            <strong>NOME:</strong> <br>
+                            <input type="text" name="name" required size="40" placeholder="Silvio Santos">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label>
+                            <strong>EMAIL:</strong> <br>
+                            <input type="text" name="email" required size="40" placeholder="usuario@dominio.com">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label>
+                            <strong>ASSUNTO:</strong> <br>
+                            <input type="text" name="assunto" required size="40" placeholder="Lorem ipsum">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label>
+                            <strong>MENSAGEM:</strong> <br>
+                            <textarea name="notes" required cols="40" rows="10"
+                                placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit."></textarea>
+                        </label>
+                    </p>
+
+                    <button type="submit">ENVIAR</button>
+                </form>
+
                 <div class="redes2">
                     <a href="https://www.instagram.com/aludalotus/" target="_blank"><img src="img/instagram.png"
                             alt="Instagram" width="60px"></a>
@@ -239,43 +278,8 @@
 
             </article>
 
-            <article class="formulario">
-
-                <p>
-                    <label>
-                        <strong>NOME:</strong> <br>
-                        <input type="text" name="name" placeholder="Silvio Santos" required>
-                    </label>
-                </p>
-
-                <p>
-                    <label>
-                        <strong>EMAIL:</strong> <br>
-                        <input type="text" name="email" placeholder="usuario@dominio.com" required>
-                    </label>
-                </p>
-
-                <p>
-                    <label>
-                        <strong>ASSUNTO:</strong> <br>
-                        <input type="text" name="assunto" placeholder="Lorem ipsum" required>
-                    </label>
-                </p>
-
-                <p>
-                    <label>
-                        <strong>MENSAGEM:</strong> <br>
-                        <textarea name="notes" cols="40" rows="10"
-                            placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." required></textarea>
-                    </label>
-                </p>
-
-                <button type="submit">ENVIAR</button>
-
-            </article>
-
             <div>
-                <img src="img/logo0.png" alt="Logo" width="400">
+                <img src="img/logo0.png" class="logo-lg" alt="Logo" width="400">
             </div>
 
         </section>
@@ -284,7 +288,7 @@
 
     <footer>
         <div>
-            <p>&copy; 2021 - by <strong>Luisa Quinones Torres</strong></p>
+            <p>&copy; Copyright 2021 - by <strong>Luisa Quinones Torres.</strong> All rights reserved.</p>
         </div>
 
     </footer>
